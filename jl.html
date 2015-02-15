@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+		<title>欢迎访问我的网站</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<style>
+		    #print {
+		        -webkit-transition: margin-left .15s linear;
+		        transition: margin-left .15s linear;
+		        -webkit-user-select: none;
+		        background-color: #fff;
+		        border-radius: 3px;
+		        box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+		        margin: 7px 0 7px 30px;
+		        padding: 5px 5px 5px 8px;
+		        position: fixed;
+		        bottom: 10px;
+		        right: 10px;
+		        cursor: pointer;
+		    }
+
+		    body {
+		        height: auto;
+		        background: #e5e5e5;
+		    }
+
+		    .well {
+		        -webkit-border-radius: 3px;
+		        border-radius: 3px;
+		        -webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		        background-color: #fff;
+		        border: 1px solid #d8d8d8;
+		        border-bottom-width: 2px;
+		        border-top-width: 0;
+		        vertical-align: top;
+		        padding:20px;
+		    }
+			.container{
+				width:800px;
+			}
+			.well .media{
+				margin-top:20px;
+			}
+			.proj{border-bottom: 1px solid #eee;}
+		    @media print {
+		        * {
+		            background: none;
+		        }
+
+		        #print {
+		            display: none;
+		        }
+		        
+		        .well {
+		            box-shadow: none;
+		            border: 1px solid #eee;
+		        }
+
+		        .footer {
+		            display: none;
+		        }
+
+		        a[href^="mailto:"]:after, a[href^="http"]:after{
+		            content: "";
+		        }
+
+		        .break-page {
+		            page-break-before: always;
+		            page-break-after: always;
+		        }
+		    }
+    	</style>
+	</head>
+	<body>
+	 	<a onclick="window.print()" id="print">
+	        <span class="fa fa-print fa-2x"></span>
+	    </a>
+	    <div class="container"> 
+	    	<div class="row">
+	    		<div class="col-xs-8">
+		    		<h2 class="ng-binding">
+		    			夏青
+		    			<small class="">(男，26)</small>
+		    		</h2>
+		    		<p>
+		    			<span>专科.</span>
+		    			<span>三年工作经验.</span>
+		    			<span>北京</span>
+		    		</p>
+		    		<p class="ng-binding">手机：13581868124</p>
+		    		<p>
+		    			邮箱：
+		    			<a href="mailto:cookmycode@gmail.com>" class="ng-binding">goalf2e@gmail.com</a>
+		    		</p>
+		    		<p>
+		    			个人网站：
+		    			<a href="http://f2enoob.com" target="_blank">f2enoob.com</a>
+		    			&nbsp;
+	                    GitHub：
+		    			<a href="http://github.com/f2e-noob" target="_blank" class="ng-binding">github.com/f2e-noob</a>
+		    		</p>
+		    	</div>
+		    	<div class="col-xs-4 text-right">
+		    		<img src="images/photo.jpg" style="height:130px; margin-top:30px;">
+		    	</div>
+	    	</div>
+	    	<div class="well well-sm">
+	    		<div class="row">
+	    			<div class="col-xs-2"><b>求职意向</b></div>
+	    			<div class="media col-xs-10">
+		    			<div class="media-left"></div>
+		    			<div class="media-body">网站制作及前端交互</div>
+	    			</div>
+	    		</div>
+	    	</div>
+			<div class="well well-sm">
+	    		<div class="row">
+	    			<div class="col-xs-2"><b>技能</b></div>
+	    			<div class="media col-xs-10">
+		    			<div class="media-left"></div>
+		    			<div class="media-body">
+							<p>熟练运用Photoshop、Flash、Dream weaver、Fireworks等图像设计及网页制作工具；</p>
+							<p>熟练编写简单的jQuery特效、以及jQuery Mobile框架，实现网页和用户交互体验；</p>
+							<p>熟练手写html、css、JavaScript、jQuery、Bootstrap</p>
+							<p>精通HTML+CSS网页布局与样式，并且能兼容各种主流浏览器。例如IE6、IE8、Fire Fox、Opera等； </p>
+							<p>了解网页中SEO的一些基本理念； </p>
+							<p>能与后台程序人员良好的合作，进行协同开发；熟悉CMS系统的内容发布与管理； </p>
+		    				
+		    				<!-- <p>熟练开发图表（Echarts、Highcharts、Flot……）以及LBS地图应用</p>
+		    				<p>熟练用ajax与服务端交互</p>
+		    				<p>熟悉Git使用以及Linux和Mac编程环境</p>
+		    				<p>了解前端自动化并实践过</p>
+		    				<p>了解Nodejs服务端编程并实践过(使用Express)以及MongoDB</p>
+		    				<p>了解RequireJS模块化开发并实践过</p>
+		    			  	<p>了解AngularJS并实践过</p> --> 
+			    		</div>
+		    		</div>
+	    		</div>
+	    	</div>
+	    	<div class="well well-sm">
+	    		<div class="row">
+	    			<div class="col-xs-2"><b>自我介绍</b></div>
+	    			<div class="media col-xs-10">
+		    			<div class="media-left"></div>
+		    			<div class="media-body">
+		    				<!-- <p>热爱前端，热爱开源，喜欢活跃在GitHub上，对国内外前端新技术热忱，英语阅读能力良好，有较强的自学能力。编程是美好的创作过程，希望遇到一个好的工程师环境</p> -->
+		    				<p>我热爱设计行业，并立志长期从事此行业。我认为工作是一种爱好。全身心地投入工作中，享受工作带来的乐趣，同时我会产生一种自豪感。
+		    				在生活中我喜欢学习新的知识和技能、有良好的沟通能力。勇于面对挫折并战胜困难与挫折；目标明确，认准的目标，不会轻言放弃。闲暇时候我也喜欢打篮球、踢足球因为并从中感受到团队合作的重要性。</p>
+		    				<p>对于工作有较强的责任心、学习能力、较强的团队意识、良好的编程习惯。喜欢钻研，独立思考能力强，能较快适应环境。在工作中并能够保持热情；带动周围活泼的生活工作氛围。</p>
+
+			    		</div>
+		    		</div>
+	    		</div>
+	    	</div>
+	    	<div class="well well-sm">
+	    		<div class="row">
+	    			<div class="col-xs-2"><b>工作经历</b><br/>
+	    			2014-8至今</div>
+	    			<div class="media col-xs-10">
+		    			<div class="media-body">
+	    					<p>北京源清慧虹科技有限公司</p>
+	    					<small>担任网站制作及美工</small>
+	    				</div>
+		    		</div>
+	    		</div>
+	    		<div class="row">
+	    			<div class="col-xs-2"><br/>
+	    			2013-07至2014-08</div>
+	    			<div class="media col-xs-10">
+		    			<div class="media-body">
+	    					<p>北京同美世纪科技有限公司</p>
+	    					<small>前端制作/网站设计</small>
+	    				</div>
+		    		</div>
+	    		</div>
+	    		<div class="row">
+	    			<div class="col-xs-2"><br/>
+	    			2012-07至2013-07</div>
+	    			<div class="media col-xs-10">
+		    			<div class="media-body">
+	    					<p>北京九阳九通科技有限公司</p>
+	    					<small>网页设计/网页制作</small>
+	    				</div>
+		    		</div>
+	    		</div>
+	    	</div>
+	    	<div class="well well-sm">
+	    		<div class="row">
+	    			<div class="col-xs-2"><b>项目经验</b></div>
+	    			<div class="media col-xs-10">
+		    			<div class="media-left"></div>
+		    			<div class="media-body">
+		    				<div class="proj">
+		    					<h4 class="ng-binding">
+		    						桥梁信息监控系统
+		    						<small class="text-muted ng-binding"></small>
+		    						<small class="text-muted ng-binding" ng-show="proj.role">职责：前端</small>
+		    						<small class="text-muted ng-hide" ng-show="proj.website">
+		    							<a href="http:" target="_">网址</a>
+		    						</small>
+		    						<small class="text-muted ng-hide" ng-show="proj.source">
+		    							<a href="" target="_">源码</a>
+		    						</small>
+		    					</h4>
+		    					<p class="ng-binding">简介：桥梁安全监控（物联网）。主要应用到的技术：jQuery、Bootstrap、ajax、flot、Echarts</p>
+		    				</div>
+		    				<div class="proj">
+		    					<h4 class="ng-binding">
+		    						简历应用
+		    						<small class="text-muted ng-binding">个人业余作品</small>
+		    						<small class="text-muted ng-binding ng-hide" ng-show="proj.role">职责：</small>
+		    						<small class="text-muted" ng-show="proj.website">
+		    							<a href="#" target="_">网址</a>
+		    						</small>
+		    						<small class="text-muted" ng-show="proj.source">
+		    							<a href="https://github.com/f2e-noob/mywebsite" target="_">源码</a>
+		    						</small>
+		    					</h4>
+	    						<p class="ng-binding">简介：个人简历管理网站，正在开发中，用到的技术：Bootstrap、前端自动化...</p>
+		    				</div>
+		    				<div class="proj">
+		    					<h4 class="ng-binding">
+		    						托诺乔网站
+ 		    						<small class="text-muted ng-binding ng-hide" ng-show="proj.role">职责：网站前端制</small>
+		    						<small class="text-muted" ng-show="proj.website">
+		    							<a href="http://tonociao.com/" target="_">网址</a>
+		    						</small>
+		    					</h4>
+	    						<p class="ng-binding">简介：托诺乔网站，一个针对男士内衣的专业网站，用到的技术：HTML、CSS、Javascript...</p>
+		    				</div>
+		    				<div class="proj">
+		    					<h4 class="ng-binding">
+		    						报检员培训考试网站
+ 		    						<small class="text-muted ng-binding ng-hide" ng-show="proj.role">职责：网站前端制以及页面的设计</small>
+		    						<small class="text-muted" ng-show="proj.website">
+		    							<a href="http://peixun.ciqcid.com/" target="_">网址</a>
+		    						</small>
+		    					</h4>
+	    						<p class="ng-binding">简介：全国报检员考试网站，用到的技术：HTML、CSS、Javascript...</p>
+		    				</div>
+			    		</div>
+		    		</div>
+	    		</div>
+	    	</div>
+	    	<div class="footer">
+	    		<center>
+	    			<span class="glyphicon glyphicon-heart"></span>
+	    			by
+	    			<a href="http://www.f2enoob.com" target="_">XIA QING</a>
+	    		</center>
+	    	</div>
+	    </div>
+	</body>
+</html>
